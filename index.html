@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para o Meu Amor ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="heart-rain-container"></div>
+
+    <section id="welcome-section" class="card-container">
+      <div class="card">
+        <div class="heart-icon">❤️</div>
+        <h2>
+          Você aceita passar mais um Dia dos Namorados com o dev mais sortudo do
+          mundo?
+        </h2>
+        <div class="btn-group">
+          <button id="btn-sim" onclick="aceitou()">SIM!</button>
+          <button id="btn-nao" onmouseover="foge(this)" onclick="foge(this)">
+            NÃO
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="main-content" class="hidden">
+      <div class="music-player">
+        <div class="player-album">❤️</div>
+        <div class="player-info">
+          <p class="track-title">Nossa Música</p>
+          <p class="track-artist">Você & Eu</p>
+        </div>
+        <button id="play-btn" onclick="togglePlay()">⏸️</button>
+        <audio
+          id="background-music"
+          src="assets/music/Pra Ver O Sol Brilhar (Ao Vivo) - Belo (youtube).mp3"
+          loop
+        ></audio>
+      </div>
+
+      <header>
+        <h1>Feliz Dia dos Namorados! ❤️</h1>
+        <p>Cada segundo ao seu lado é um momento da minha vida bem vivido.</p>
+      </header>
+
+      <div class="timer-container">
+        <h3>Estamos juntos há:</h3>
+        <div id="countdown">
+          <div class="time-box">
+            <span id="days">00</span>
+            <p>Dias</p>
+          </div>
+          <div class="time-box">
+            <span id="hours">00</span>
+            <p>Horas</p>
+          </div>
+          <div class="time-box">
+            <span id="minutes">00</span>
+            <p>Min</p>
+          </div>
+          <div class="time-box">
+            <span id="seconds">00</span>
+            <p>Seg</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Nossa Linha do Tempo 📸</h2>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>O Início ✨</h3>
+            <img src="/assets/img/primeira fotos juntos.jpg" alt="Início" />
+            <p>Onde tudo começou...</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Nosso momento engraçado</h3>
+            <img src="/assets/img/momento engracado.jpg" alt="Primeiro Date" />
+            <p>Seu sorriso favorito 😄</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Nosssa primeira viagem</h3>
+            <img src="/assets/img/viagem.jpg" alt="O Pedido" />
+            <p>Aquele dia inesquecível ✨</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Estatísticas do Nosso Amor 📊</h2>
+      <div class="stats-container">
+        <div class="stat-row">
+          <span>Minha paciência quando você demora a se arrumar:</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 100%">100%</div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <span>Sua precisão em adivinhar o que quero comer:</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 99%">99%</div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <span>Vontade de te dar um abraço agora:</span>
+          <div class="progress-bar">
+            <div
+              class="progress"
+              style="width: 100%; animation: pulse 1s infinite"
+            >
+              🚀 Infinito
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Motivos para te amar (Clique para virar) 💌</h2>
+      <div class="cards-grid">
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><h3>Motivo #1</h3></div>
+            <div class="flip-card-back">
+              <p>O seu sorriso que ilumina até os meus dias mais cinzentos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><h3>Motivo #2</h3></div>
+            <div class="flip-card-back">
+              <p>
+                A sua paciência comigo e o seu abraço que parece um porto
+                seguro.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><h3>Motivo #3</h3></div>
+            <div class="flip-card-back">
+              <p>
+                Como você me apoia em cada projeto e me faz querer ser alguém
+                melhor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Minha Carta para Você ✍️</h2>
+      <div class="letter-container">
+        <p id="typewriter-text"></p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
