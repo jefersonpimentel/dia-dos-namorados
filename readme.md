@@ -3,7 +3,7 @@
 Uma aplicação web interativa, responsiva e cheia de romance desenvolvida para comemorar o Dia dos Namorados. Este projeto combina boas práticas de desenvolvimento front-end com uma experiência de storytelling digital personalizada.
 
 ## 🔗 Demonstração ao Vivo
-[Insira o seu link da Vercel/Netlify ou GitHub Pages aqui]
+https://jefersonpimentel.github.io/dia-dos-namorados/
 
 ---
 
@@ -23,12 +23,13 @@ A aplicação foi estruturada para guiar o usuário através de uma jornada flui
 
 ## 🎨 Paleta de Cores & Design (UI)
 
-A interface foi projetada utilizando uma paleta moderna, sofisticada e premium em tons de roxo (estilo *night-mode*), garantindo excelente contraste, legibilidade e tipografia acessível:
+A interface foi projetada utilizando uma paleta romântica, acolhedora e moderna em tons pastéis de rosa, garantindo excelente contraste, legibilidade e uma estética visual delicada:
 
-* **Cor de Fundo (Lilás Pastel Suave):** `#f3e5f5`
-* **Acento Principal/Texto (Violeta Profundo):** `#4a148c`
-* **Acento Secundário (Roxo Vibrante):** `#8e24aa`
-* **Destaques Claros (Roxo Pastel Claro):** `#e1bee7`
+* **Cor de Fundo (Rosa Pastel Suave):** `#ffe5ec`
+* **Texto Principal (Vinho/Roxo Profundo):** `#4c1130`
+* **Destaques e Botão Principal (Rosa Vibrante):** `#fb6f92`
+* **Elementos Secundários (Rosa Claro):** `#ffb3c1`
+* **Cards e Detalhes dos Contadores (Rosa Médio):** `#ffc2d1`
 
 ---
 
